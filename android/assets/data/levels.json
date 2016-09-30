@@ -1,0 +1,137 @@
+{
+	level:[
+	{
+		id:1,
+		demo:true,
+		seed:32,
+		predictable:true,
+		time:240,
+		width:5,
+		height:4,
+		minWallsPerTile:0,
+		maxWallsPerTile:2,
+		
+		cat:[{ x:1, y:1, speed:120, runSpeed:180 }],
+		
+		mice:[{ x:3, y:3, speed:70, alert:false }]
+	},
+	{
+		id:1,
+		demo:true,
+		seed:75,
+		predictable:true,
+		time:60,
+		width:6,
+		height:3,
+		minWallsPerTile:1,
+		maxWallsPerTile:3,
+		
+		cat:[{ x:0, y:0, speed:120, runSpeed:180 }],
+		
+		mice:[{ x:4, y:1, speed:190, alert:false }]
+	},
+	{
+		id:2,
+		demo:true,
+		seed:657,
+		predictable:true,
+		time:240,
+		width:5,
+		height:4,
+		minWallsPerTile:0,
+		maxWallsPerTile:3,
+		
+		cat:[{ x:1, y:0, speed:120 }],
+		
+		mice:[{ x:3, y:3, speed:320, alert:false }]
+	},
+	{
+		id:2,
+		demo:true,
+		seed:6383,
+		predictable:true,
+		time:90,
+		width:3,
+		height:3,
+		minWallsPerTile:0,
+		maxWallsPerTile:3,
+		
+		cat:[{ x:0, y:0, speed:30 }],
+		
+		mice:[{ x:2, y:1, speed:20, alert:false }]
+	},
+	{
+		id:3,
+		demo:true,
+		seed:6634,
+		predictable:true,
+		time:240,
+		width:6,
+		height:4,
+		minWallsPerTile:0,
+		maxWallsPerTile:3,
+		
+		cat:[{ x:1, y:1, speed:120 }],
+		
+		mice:
+		[
+			{ x:5, y:3, speed:70, alert:false },
+			{ x:5, y:1, speed:70, alert:false }
+		]
+	},
+	{
+		id:4,
+		demo:true,
+		seed:63472,
+		predictable:true,
+		time:240,
+		width:8,
+		height:6,
+		minWallsPerTile:1,
+		maxWallsPerTile:3,
+		
+		cat:[{ x:1, y:1, speed:130 }],
+		
+		mice:
+		[
+			{ x:6, y:1, speed:70, alert:false },
+			{ x:4, y:2, speed:100, alert:true, runSpeed:200 },
+			{ x:6, y:4, speed:160, alert:true, runSpeed:200 }
+		]
+	},
+	{
+		id:4,
+		demo:true,
+		seed:6727,
+		predictable:true,
+		time:120,
+		width:10,
+		height:6,
+		minWallsPerTile:0,
+		maxWallsPerTile:3,
+		
+		cat:
+		[
+			{ x:1, y:1, speed:110 },
+			{ x:1, y:4, speed:150 }
+		],
+		
+		dog:
+		[
+			{ x:5, y:3, speed:140 }
+		],
+		
+		mice:
+		[
+			{ x:6, y:1, speed:70, alert:false },
+			{ x:4, y:2, speed:100, alert:true, runSpeed:200 }
+		],
+		
+		item:
+		[
+			{ x:5, y:3, type:1 },
+			{ x:8, y:0, type:2 }
+		]
+		
+	}]
+}
